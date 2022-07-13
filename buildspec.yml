@@ -12,7 +12,7 @@ phases:
       - cd lib
       - zip -r9 ../deployment_package.zip .
       - cd ..
-      - zip -g deployment_package.zip lambda.py
+      - zip -g deployment_package.zip Avalanche_getAvaScanInfo_sendonKafka.py
   post_build:
     commands:
       - echo "Updating lambda Function..."
