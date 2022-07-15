@@ -1,4 +1,3 @@
-pip install kafka 
-pip install pymysql
-pip install request
-
+pip kafka 
+pip pymysql
+pip request
