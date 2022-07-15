@@ -1,1 +1,2 @@
-kafka,pymysql,request
+kafka
+request
