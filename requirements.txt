@@ -1,4 +1,2 @@
 kafka
-pymysql
-request
 
