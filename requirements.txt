@@ -1,2 +1,1 @@
 kafka==2.0.2
-PyMySQL==0.8
