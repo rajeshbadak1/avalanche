@@ -5,9 +5,8 @@ phases:
       python: 3.9
     commands:
       - echo "Installing dependencies..."
-      - pip3 install kafka  -t lib
-      - pip3 install pymysql -t lib
-      - pip3 install request  -t lib
+      - pip install requirements.txt  -t lib
+     
   build:
     commands:
       - echo "Zipping deployment package..."
