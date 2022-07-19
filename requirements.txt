@@ -1,2 +1,1 @@
-pymysql==0.8
 kafka=2.02
