@@ -14,8 +14,10 @@ phases:
       - zip -r9 ../deployment_package.zip .
       - cd ..
       - zip -g deployment_package.zip Avalanche_getAvaScanInfo_sendonKafka.py
+      - zip -g deployment_package.zip raj.py
   post_build:
     commands:
       - echo "Updating lambda Function..."
       - aws lambda update-function-code --function-name avalanche  --zip-file fileb://deployment_package.zip
+      - aws lambda update-function-code --function-name raj --zip-file fileb://deployment_package.zip
       - echo "DONE!!"
